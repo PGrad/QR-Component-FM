@@ -1,0 +1,40 @@
+body {
+    background-color: #cbdcee;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 225px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.text {
+    font-size: .7em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 15px 20px 15px;
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+h3 {
+    margin: 5px 0 5px 0;
+}
+
+p {
+    margin: 5px 0 5px 0;
+    color: grey;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
